@@ -28,4 +28,25 @@ for i in range(0,lp):
     if i > 0:
         total = total * mfull
 
-print(total)
+number_of_replications = 1
+
+total = total * number_of_replications
+
+# Now calculate the amount of time
+
+avg_time_seconds = 1
+
+avg_time_minutes = avg_time_seconds / 60
+
+avg_time_hours = avg_time_minutes / 60
+
+time_hours = avg_time_hours * total
+
+time_days = time_hours / 24
+
+time_years = time_days / 365
+
+print("Overall there are %d simulations" % total)
+print("Assuming 1s per simulation, this will take %d hours" % time_hours)
+print("Assuming 1s per simulation, this will take %d days" % time_days)
+print("Assuming 1s per simulation, this will take %d years" % time_years)
