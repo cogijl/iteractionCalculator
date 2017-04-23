@@ -1,0 +1,11 @@
+Basic code really, just have a csv file where you have the following columns in row 1
+variable name, min, max, step
+
+variable name is just for you, it isn't relevant to the calculation
+
+then make sure that you reset the path and file names so that they're correct.
+
+
+Then after you run it, it'll just spit out a single value, that's the number of
+total iterations that you can expect from your model given the parameters you've
+specified. 
